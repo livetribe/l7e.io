@@ -1,0 +1,12 @@
+os:
+  - linux
+sudo: false
+language: go
+go_import_path: l7e.io/vanity-server
+go:
+  - 1.14.x
+before_install:
+  - go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+script:
+  - $GOPATH/bin/golangci-lint run || true; # https://github.com/golangci/golangci-lint/issues/824
+  - $GOPATH/bin/golangci-lint run

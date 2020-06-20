@@ -1,0 +1,8 @@
+[[vanity]]
+import_path = "l7e.io/vanity"
+vcs = "git"
+vcs_path = "https://github.com/livetribe/vanity"
+[[vanity]]
+import_path = "l7e.io/yama"
+vcs = "git"
+vcs_path = "https://github.com/livetribe/yama"
