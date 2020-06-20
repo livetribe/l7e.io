@@ -10,3 +10,7 @@ vcs_path = "https://github.com/livetribe/yama"
 import_path = "l7e.io/versioning"
 vcs = "git"
 vcs_path = "https://github.com/livetribe/versioning"
+[[vanity]]
+import_path = "l7e.io/semver"
+vcs = "git"
+vcs_path = "https://github.com/livetribe/semver"
