@@ -14,3 +14,7 @@ vcs_path = "https://github.com/livetribe"
 import_path = "l7e.io/semver"
 vcs = "git"
 vcs_path = "https://github.com/livetribe"
+[[vanity]]
+import_path = "l7e.io/lt"
+vcs = "git"
+vcs_path = "https://github.com/livetribe"
